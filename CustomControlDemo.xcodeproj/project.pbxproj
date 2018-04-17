@@ -12,6 +12,8 @@
 		E14D14A02083A57400EB84E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E14D149E2083A57400EB84E0 /* Main.storyboard */; };
 		E14D14A22083A57500EB84E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E14D14A12083A57500EB84E0 /* Assets.xcassets */; };
 		E14D14A52083A57500EB84E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E14D14A32083A57500EB84E0 /* LaunchScreen.storyboard */; };
+		E14D14AD2083A6B300EB84E0 /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D14AC2083A6B300EB84E0 /* IconButton.swift */; };
+		E14D14AF2083CB5800EB84E0 /* Contacts-50.png in Resources */ = {isa = PBXBuildFile; fileRef = E14D14AE2083CB5800EB84E0 /* Contacts-50.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E14D14A12083A57500EB84E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E14D14A42083A57500EB84E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E14D14A62083A57500EB84E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E14D14AC2083A6B300EB84E0 /* IconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
+		E14D14AE2083CB5800EB84E0 /* Contacts-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Contacts-50.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,7 @@
 		E14D148E2083A57400EB84E0 = {
 			isa = PBXGroup;
 			children = (
+				E14D14AC2083A6B300EB84E0 /* IconButton.swift */,
 				E14D14992083A57400EB84E0 /* CustomControlDemo */,
 				E14D14982083A57400EB84E0 /* Products */,
 			);
@@ -60,6 +65,7 @@
 				E14D14A12083A57500EB84E0 /* Assets.xcassets */,
 				E14D14A32083A57500EB84E0 /* LaunchScreen.storyboard */,
 				E14D14A62083A57500EB84E0 /* Info.plist */,
+				E14D14AE2083CB5800EB84E0 /* Contacts-50.png */,
 			);
 			path = CustomControlDemo;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 				E14D14A52083A57500EB84E0 /* LaunchScreen.storyboard in Resources */,
 				E14D14A22083A57500EB84E0 /* Assets.xcassets in Resources */,
 				E14D14A02083A57400EB84E0 /* Main.storyboard in Resources */,
+				E14D14AF2083CB5800EB84E0 /* Contacts-50.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E14D14AD2083A6B300EB84E0 /* IconButton.swift in Sources */,
 				E14D149D2083A57400EB84E0 /* ViewController.swift in Sources */,
 				E14D149B2083A57400EB84E0 /* AppDelegate.swift in Sources */,
 			);

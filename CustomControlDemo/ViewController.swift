@@ -21,5 +21,8 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func iconButtonTapped(_ sender: IconButton) {
+        print("IconButton Tapped!")
+    }
 }
 
